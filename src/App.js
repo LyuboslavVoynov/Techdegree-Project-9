@@ -11,7 +11,7 @@ import NoResults from './components/Search';
 import London, {
   NewYork,
   Paris
-} from './components/Components';
+} from './components/Gallery';
 
 
 class App extends Component {

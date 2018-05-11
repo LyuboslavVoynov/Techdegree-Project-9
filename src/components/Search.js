@@ -9,7 +9,7 @@ import {NavLink} from 'react-router-dom';
 const Nav = props => (
     <nav className="main-nav">
         <ul>
-            <li><NavLink exact to='/'>Home</NavLink></li>
+            <li><NavLink exact={true} to='/'>Home</NavLink></li>
             <li><NavLink to='/london'>London</NavLink></li>
             <li><NavLink to='/newyork'>New York</NavLink></li>
             <li><NavLink to='/paris'>Paris</NavLink></li>

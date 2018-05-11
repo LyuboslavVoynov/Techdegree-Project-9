@@ -13,9 +13,9 @@ class Form extends Component {
     }
 
     handleSubmit = e => {
-        e.preventDefault();//hanlde submit to prevent the default refresh
-        this.props.onSearch(this.query.value);//changes the query item
-        e.currentTarget.reset();//reset the query item
+        e.preventDefault();
+        this.props.onSearch(this.query.value);//changes the query value
+        e.currentTarget.reset();//reset the search query
     }
     render() {
         return (
